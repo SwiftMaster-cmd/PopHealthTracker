@@ -10,6 +10,7 @@
     <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-firestore.js"></script>
     <!-- Firebase Configuration -->
     <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -42,4 +43,19 @@
             <option value="billableHRA">Billable HRA</option>
             <option value="flexHRA">Flex HRA</option>
             <option value="selectRX">Select RX</option>
-            <option value="transferSchedule">Transfer/Schedule</op
+            <option value="transferSchedule">Transfer/Schedule</option>
+        </select>
+
+        <!-- Submit Button -->
+        <button type="button" onclick="submitForm()">Submit</button>
+
+        <!-- History Button -->
+        <button type="button" onclick="showHistory()">View History</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tracker App. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
